@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/icon?family=Raleway:200,100,400');
+
+body{
+    font-family: 'Raleway',sans-serif;
+    height: 100vh;
+    background:#333 url('citylights.jpg')no-repeat center center/cover;
+    color:#ccc;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding:0 3rem;
+}
+h1,h2{
+    font-size: 2.5rem;
+    color: #aaa;
+    
+  
+}
+/* cursor */
+.txt-type > .txt{
+    border-right: 0.2rem  solid #777;
+}
+@media(max-width:800px){
+    .container{
+        padding: 0 1rem;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
+@media(max-width:500px){
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+}
